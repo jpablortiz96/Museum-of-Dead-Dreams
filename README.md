@@ -93,17 +93,50 @@ The end-to-end user flow is:
 9. Commit the revived project into Resurrection Bay.
 10. Download a GitHub Copilot Resurrection Kit and apply it to the original repo.
 
-## UI Previews
+## Real Product Screenshots
 
-These are vector previews generated to mirror the actual product experience and keep the repository self-contained.
+All screenshots below were captured from the running application, not mocked or composited.
+
+### 1. Welcome Screen
 
 <p align="center">
-  <img src="./assets/readme/screenshots/screenshot-welcome-preview.svg" alt="Welcome screen preview" width="48%" />
-  <img src="./assets/readme/screenshots/screenshot-hall-preview.svg" alt="Museum hall preview" width="48%" />
+  <img src="./assets/readme/screenshots/01-welcome-screen.png" alt="Museum of Dead Dreams welcome screen" width="100%" />
 </p>
+
+### 2. Loading Graveyard
+
 <p align="center">
-  <img src="./assets/readme/screenshots/screenshot-revival-preview.svg" alt="Revival plan preview" width="48%" />
-  <img src="./assets/readme/screenshots/screenshot-resurrection-preview.svg" alt="Resurrection Bay preview" width="48%" />
+  <img src="./assets/readme/screenshots/02-loading-graveyard.png" alt="Loading graveyard analysis screen" width="100%" />
+</p>
+
+### 3. Museum Hall
+
+<p align="center">
+  <img src="./assets/readme/screenshots/03-museum-hall.png" alt="Personalized museum hall with abandoned repo exhibits" width="100%" />
+</p>
+
+### 4. Exhibit Room
+
+<p align="center">
+  <img src="./assets/readme/screenshots/04-exhibit-room.png" alt="Exhibit room for an abandoned repository" width="100%" />
+</p>
+
+### 5. Copilot Curator
+
+<p align="center">
+  <img src="./assets/readme/screenshots/05-copilot-curator.png" alt="Copilot Curator answering grounded questions about the repo" width="100%" />
+</p>
+
+### 6. Revival Plan
+
+<p align="center">
+  <img src="./assets/readme/screenshots/06-revival-plan.png" alt="AI-generated revival plan with diagnosis, architecture, and score" width="100%" />
+</p>
+
+### 7. Resurrection Bay
+
+<p align="center">
+  <img src="./assets/readme/screenshots/07-resurrection-bay.png" alt="Resurrection Bay after committing a project to the archive" width="100%" />
 </p>
 
 ## Before vs After
@@ -349,6 +382,7 @@ VITE_GITHUB_TOKEN=github_pat_optional_for_higher_rate_limits
 | `npm run build` | Runs TypeScript build and Vite production build |
 | `npm run lint` | Runs ESLint |
 | `npm run preview` | Serves the production build locally |
+| `npm run capture:readme -- <github-username>` | Captures the README screenshots from the live local app |
 
 ## Repository Layout
 

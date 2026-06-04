@@ -509,11 +509,6 @@ async function main() {
   await writeAsset("copilot-kit.svg", copilotKitSvg());
   await writeAsset("roi-dashboard.svg", roiDashboardSvg());
 
-  await writeAsset("screenshot-welcome-preview.svg", screenshotWelcomePreview(), screenshotDir);
-  await writeAsset("screenshot-hall-preview.svg", screenshotHallPreview(), screenshotDir);
-  await writeAsset("screenshot-revival-preview.svg", screenshotRevivalPreview(), screenshotDir);
-  await writeAsset("screenshot-resurrection-preview.svg", screenshotResurrectionPreview(), screenshotDir);
-
   console.log("Generated README assets in", assetsDir);
 }
 
