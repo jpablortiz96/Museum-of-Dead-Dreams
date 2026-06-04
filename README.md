@@ -445,4 +445,4 @@ Tools and platforms used:
 - GitHub REST API for repository discovery and evidence
 - OpenAI API for structured generation
 - GitHub Copilot for assisted product completion
-- React, TypeScript, Vite, Tailwind, and shadcn/ui for the product experience
+- React, TypeScript, Vite, Tailwind, and shadcn/ui for the product experience.
