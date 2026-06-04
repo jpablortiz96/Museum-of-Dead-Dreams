@@ -177,7 +177,7 @@ function heroSvg() {
 
         <rect x="256" y="118" width="182" height="74" rx="20" fill="#111827" stroke="${theme.border}"/>
         <text x="276" y="150" fill="${theme.text}" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Curator AI</text>
-        <text x="276" y="174" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="14">Exhibits + Q&A + plans</text>
+        <text x="276" y="174" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="14">Exhibits + Q&amp;A + plans</text>
 
         <rect x="92" y="276" width="258" height="94" rx="24" fill="#111827" stroke="${theme.border}"/>
         <text x="112" y="316" fill="${theme.text}" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Copilot Resurrection Kit</text>
@@ -204,7 +204,7 @@ function architectureSvg() {
 
     ${box(80, 680, 250, 150, "Museum Exhibits", ["subtitle", "epitaph", "artifacts", "Copilot insight"], theme.crimson)}
     ${box(392, 680, 250, 150, "Revival Plans", ["diagnosis", "architecture", "stack", "score"], theme.purple)}
-    ${box(704, 680, 250, 150, "Copilot Curator", ["Q&A", "evidence", "follow-ups"], theme.blue)}
+    ${box(704, 680, 250, 150, "Copilot Curator", ["Q&amp;A", "evidence", "follow-ups"], theme.blue)}
     ${box(1016, 680, 250, 150, "Resurrection Bay", ["archive", "protocol", "Copilot kit"], theme.gold)}
 
     ${arrowLine(314, 265, 384, 265, theme.cyan)}
@@ -229,7 +229,7 @@ function productFlowSvg() {
     ["1", "Enter username", "GitHub profile input"],
     ["2", "Scan repos", "Find public abandoned work"],
     ["3", "Visit exhibit", "Explore AI museum room"],
-    ["4", "Ask curator", "Grounded Q&A per project"],
+    ["4", "Ask curator", "Grounded Q&amp;A per project"],
     ["5", "Generate plan", "Diagnosis + stack + GTM"],
     ["6", "Export PDF", "Shareable executive brief"],
     ["7", "Commit to Bay", "Persistent archive entry"],
@@ -295,7 +295,7 @@ function beforeAfterSvg() {
         "Live GitHub profile analysis",
         "Abandonment ranking and fork filtering",
         "Grounded AI exhibit generation",
-        "Copilot Curator Q&A",
+        "Copilot Curator Q&amp;A",
         "Revival Plan engine + branded PDF",
         "Persistent Resurrection Bay archive",
         "Downloadable Copilot Resurrection Kits",

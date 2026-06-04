@@ -89,7 +89,7 @@
           <circle cx="38" cy="42" r="18" fill="#7dd3fc" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">4</text>
           <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Ask curator</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Grounded Q&A per project</text>
+          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Grounded Q&amp;A per project</text>
         </g>
         
     <g>

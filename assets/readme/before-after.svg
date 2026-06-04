@@ -107,7 +107,7 @@
             <g transform="translate(40 348)">
               <rect x="0" y="0" width="20" height="20" rx="6" fill="#22c55e" opacity="0.2"/>
               <path d="M6 10 L9 13 L15 6" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Copilot Curator Q&A</text>
+              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Copilot Curator Q&amp;A</text>
             </g>
           
             <g transform="translate(40 404)">

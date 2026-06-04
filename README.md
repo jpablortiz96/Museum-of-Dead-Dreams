@@ -1,8 +1,6 @@
 # Museum of Dead Dreams
 
-<p align="center">
-  <img src="./assets/readme/hero.svg" alt="Museum of Dead Dreams hero banner" width="100%" />
-</p>
+![Museum of Dead Dreams Hero](assets/readme/hero.svg)
 
 > An AI-powered museum that turns abandoned GitHub repos into exhibits, autopsies, revival plans, branded PDFs, and GitHub Copilot resurrection kits.
 
@@ -76,9 +74,7 @@ Museum of Dead Dreams converts repo entropy into a structured, story-driven, and
 
 ## Product Flow
 
-<p align="center">
-  <img src="./assets/readme/product-flow.svg" alt="Product flow diagram for Museum of Dead Dreams" width="100%" />
-</p>
+![Product Flow](assets/readme/product-flow.svg)
 
 The end-to-end user flow is:
 
@@ -100,50 +96,48 @@ All screenshots below were captured from the running application, not mocked or 
 ### 1. Welcome Screen
 
 <p align="center">
-  <img src="./assets/readme/screenshots/01-welcome-screen.png" alt="Museum of Dead Dreams welcome screen" width="100%" />
+  <img src="assets/readme/screenshots/01-welcome-screen.png" alt="Museum of Dead Dreams welcome screen" width="100%" />
 </p>
 
 ### 2. Loading Graveyard
 
 <p align="center">
-  <img src="./assets/readme/screenshots/02-loading-graveyard.png" alt="Loading graveyard analysis screen" width="100%" />
+  <img src="assets/readme/screenshots/02-loading-graveyard.png" alt="Loading graveyard analysis screen" width="100%" />
 </p>
 
 ### 3. Museum Hall
 
 <p align="center">
-  <img src="./assets/readme/screenshots/03-museum-hall.png" alt="Personalized museum hall with abandoned repo exhibits" width="100%" />
+  <img src="assets/readme/screenshots/03-museum-hall.png" alt="Personalized museum hall with abandoned repo exhibits" width="100%" />
 </p>
 
 ### 4. Exhibit Room
 
 <p align="center">
-  <img src="./assets/readme/screenshots/04-exhibit-room.png" alt="Exhibit room for an abandoned repository" width="100%" />
+  <img src="assets/readme/screenshots/04-exhibit-room.png" alt="Exhibit room for an abandoned repository" width="100%" />
 </p>
 
 ### 5. Copilot Curator
 
 <p align="center">
-  <img src="./assets/readme/screenshots/05-copilot-curator.png" alt="Copilot Curator answering grounded questions about the repo" width="100%" />
+  <img src="assets/readme/screenshots/05-copilot-curator.png" alt="Copilot Curator answering grounded questions about the repo" width="100%" />
 </p>
 
 ### 6. Revival Plan
 
 <p align="center">
-  <img src="./assets/readme/screenshots/06-revival-plan.png" alt="AI-generated revival plan with diagnosis, architecture, and score" width="100%" />
+  <img src="assets/readme/screenshots/06-revival-plan.png" alt="AI-generated revival plan with diagnosis, architecture, and score" width="100%" />
 </p>
 
 ### 7. Resurrection Bay
 
 <p align="center">
-  <img src="./assets/readme/screenshots/07-resurrection-bay.png" alt="Resurrection Bay after committing a project to the archive" width="100%" />
+  <img src="assets/readme/screenshots/07-resurrection-bay.png" alt="Resurrection Bay after committing a project to the archive" width="100%" />
 </p>
 
 ## Before vs After
 
-<p align="center">
-  <img src="./assets/readme/before-after.svg" alt="Before and after transformation diagram" width="100%" />
-</p>
+![Before and After](assets/readme/before-after.svg)
 
 ### Before
 
@@ -164,9 +158,7 @@ All screenshots below were captured from the running application, not mocked or 
 
 ## Architecture
 
-<p align="center">
-  <img src="./assets/readme/architecture.svg" alt="Architecture diagram for Museum of Dead Dreams" width="100%" />
-</p>
+![Architecture](assets/readme/architecture.svg)
 
 High-level architecture:
 
@@ -248,9 +240,7 @@ Projects committed from a Revival Plan are saved into a persistent `Resurrection
 
 Once a project reaches Resurrection Bay, the user can download a repo-ready Copilot kit.
 
-<p align="center">
-  <img src="./assets/readme/copilot-kit.svg" alt="Copilot resurrection kit contents diagram" width="100%" />
-</p>
+![Copilot Kit](assets/readme/copilot-kit.svg)
 
 Each kit contains:
 
@@ -277,9 +267,7 @@ Museum of Dead Dreams goes further:
 
 ## ROI Framing
 
-<p align="center">
-  <img src="./assets/readme/roi-dashboard.svg" alt="ROI dashboard for Museum of Dead Dreams" width="100%" />
-</p>
+![ROI Dashboard](assets/readme/roi-dashboard.svg)
 
 This product has value across several use cases:
 
