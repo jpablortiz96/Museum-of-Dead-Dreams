@@ -1,241 +1,372 @@
 # Museum of Dead Dreams
 
-> An AI-powered museum that turns abandoned GitHub repos into exhibits, revival plans, Copilot kits, and second chances.
+<p align="center">
+  <img src="./assets/readme/hero.svg" alt="Museum of Dead Dreams hero banner" width="100%" />
+</p>
 
-[![React](https://img.shields.io/badge/React-19-111827?logo=react&logoColor=61dafb)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-111827?logo=typescript&logoColor=3178c6)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-7-111827?logo=vite&logoColor=646cff)](https://vite.dev/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-Structured%20Generation-111827?logo=openai&logoColor=10a37f)](https://platform.openai.com/)
-[![GitHub API](https://img.shields.io/badge/GitHub-Public%20Repo%20Analysis-111827?logo=github&logoColor=white)](https://docs.github.com/en/rest)
-[![Copilot Ready](https://img.shields.io/badge/GitHub%20Copilot-Resurrection%20Kits-111827?logo=githubcopilot&logoColor=white)](https://github.com/features/copilot)
-[![PDF Export](https://img.shields.io/badge/Export-Branded%20PDF-111827?logo=adobeacrobatreader&logoColor=ef4444)](#revival-plans)
-[![Local First](https://img.shields.io/badge/Local--first-AI%20Server-111827?logo=serverfault&logoColor=93c5fd)](#quickstart)
+> An AI-powered museum that turns abandoned GitHub repos into exhibits, autopsies, revival plans, branded PDFs, and GitHub Copilot resurrection kits.
 
-## Links
+[![React](https://img.shields.io/badge/React-19-0f172a?logo=react&logoColor=61dafb)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-0f172a?logo=typescript&logoColor=3178c6)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-7-0f172a?logo=vite&logoColor=646cff)](https://vite.dev/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-Structured%20Generation-0f172a?logo=openai&logoColor=10a37f)](https://platform.openai.com/)
+[![GitHub API](https://img.shields.io/badge/GitHub-Public%20Repo%20Analysis-0f172a?logo=github&logoColor=ffffff)](https://docs.github.com/en/rest)
+[![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-Resurrection%20Kits-0f172a?logo=githubcopilot&logoColor=ffffff)](https://github.com/features/copilot)
+[![PDF Export](https://img.shields.io/badge/Export-Branded%20PDF-0f172a?logo=adobeacrobatreader&logoColor=ef4444)](#revival-plans)
+[![MIT License](https://img.shields.io/badge/License-MIT-0f172a)](./LICENSE)
 
-- Live Demo: [Museum of Dead Dreams](https://osiam2phyuryk.kimi.page)
+## Live Links
+
+- Live experience: [Museum of Dead Dreams](https://osiam2phyuryk.kimi.page)
 - Repository: [jpablortiz96/Museum-of-Dead-Dreams](https://github.com/jpablortiz96/Museum-of-Dead-Dreams)
 - Challenge: [GitHub Finish-Up-A-Thon 2026](https://dev.to/challenges/github-2026-05-21)
+- Architecture notes: [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md)
+- Before / after breakdown: [docs/BEFORE_AFTER.md](./docs/BEFORE_AFTER.md)
+- Copilot journey: [docs/COPILOT_JOURNEY.md](./docs/COPILOT_JOURNEY.md)
+- ROI framing: [docs/ROI.md](./docs/ROI.md)
+- Demo script: [docs/DEMO_SCRIPT.md](./docs/DEMO_SCRIPT.md)
+- Submission checklist: [docs/SUBMISSION_CHECKLIST.md](./docs/SUBMISSION_CHECKLIST.md)
+
+## What This Project Is
+
+Every developer has a graveyard.
+
+Some repos died because the idea was too early. Some died because the architecture never stabilized. Some died because life moved faster than the roadmap. Most of them sit on GitHub as static code artifacts with no story, no diagnosis, and no realistic path back.
+
+`Museum of Dead Dreams` reframes those abandoned repositories as an interactive product experience:
+
+- it discovers a user's public repos through the GitHub API
+- selects the most abandoned ones
+- reconstructs each project as a museum exhibit
+- explains why it likely failed
+- lets users interrogate the repo through a grounded Copilot Curator
+- generates a six-part Revival Plan
+- exports that plan as Markdown or a branded PDF
+- stores revived projects inside a persistent Resurrection Bay
+- produces a GitHub Copilot Resurrection Kit that can be dropped into the real repo
+
+This is not just a gallery. It is a revival workflow disguised as an atmospheric museum.
 
 ## The Problem
 
-Millions of projects die quietly on GitHub.
+Abandoned repositories usually fail in two ways:
 
-Not because the original idea was always bad, but because side projects, hackathon builds, prototypes, and internal tools often lose momentum before they become useful products. When that happens, the code is not the only thing that gets abandoned. Product insight, technical experiments, failed assumptions, and future opportunities disappear with it.
+1. The code becomes inert.
+2. The learning disappears with it.
 
-`Museum of Dead Dreams` turns that graveyard into something inspectable, memorable, and actionable.
+GitHub preserves files, but it does not preserve the product context around abandoned ideas:
+
+- why the project probably died
+- what technical debt killed momentum
+- what market shift made it irrelevant
+- what would have to change for it to succeed today
+- how to hand that context back to a coding agent like GitHub Copilot
 
 ## The Solution
 
-Instead of showing a dead repository as a static list of files, this project transforms abandoned public repos into a personalized interactive museum:
+Museum of Dead Dreams converts repo entropy into a structured, story-driven, and action-ready experience:
 
-- AI-generated exhibit rooms
-- cause-of-death analysis
-- grounded Copilot Curator Q&A
-- six-part revival plans
-- branded PDF export
-- persistent `Resurrection Bay`
-- downloadable GitHub Copilot resurrection kits
+- personalized museum generation per GitHub username
+- AI-generated exhibit narrative grounded in repo evidence
+- live Copilot Curator Q&A for each exhibit
+- multi-section revival strategy reports
+- branded executive PDF export
+- persistent "afterlife" archive for revived projects
+- downloadable GitHub Copilot kits to continue the rebuild in the original repository
 
-The result is not just documentation. It is a developer-facing revival workflow.
+## Product Flow
 
-## Why It Matters
+<p align="center">
+  <img src="./assets/readme/product-flow.svg" alt="Product flow diagram for Museum of Dead Dreams" width="100%" />
+</p>
 
-This is useful for:
-
-- developers with abandoned side projects
-- hackathon builders with promising but unfinished prototypes
-- startup teams auditing old experiments
-- engineering managers reviewing dormant internal tools
-- open-source maintainers triaging forgotten repos
-- anyone who wants to turn a repo graveyard into an actionable roadmap
-
-## Before / After
-
-| Before | After |
-| --- | --- |
-| Static 4-room concept | Personalized museum per GitHub username |
-| Hardcoded exhibits | Live GitHub repo analysis |
-| No real repo grounding | README, manifest, languages, commit, and root-file evidence |
-| No AI autopsy engine | OpenAI-powered exhibit generation |
-| No live Q&A | Copilot Curator per project |
-| No revival workflow | 6-section Revival Plan engine |
-| No reusable output | Markdown + branded PDF export |
-| No execution layer | Downloadable GitHub Copilot resurrection kits |
-| No persistent afterlife | `Resurrection Bay` archive per museum |
-| No shareable identity | `?user=<username>` museum URLs |
-
-## Product Demo Flow
+The end-to-end user flow is:
 
 1. Enter a GitHub username.
-2. Watch the Graveyard Scanner analyze public repos.
-3. Explore AI-generated exhibits for the most abandoned projects.
-4. Ask the Copilot Curator grounded questions about each repo.
-5. Open a Revival Plan with diagnosis, architecture, tech stack, features, GTM, and score.
-6. Export the plan as Markdown or a branded PDF.
-7. Commit the project into `Resurrection Bay`.
-8. Download a GitHub Copilot Resurrection Kit.
-9. Apply the kit to a real repository and continue the rebuild.
+2. Analyze public repos through the GitHub API.
+3. Rank and select the most abandoned projects.
+4. Generate AI-driven exhibits with grounded repo evidence.
+5. Explore rooms, artifacts, causes of death, and Copilot narration.
+6. Ask the Copilot Curator repo-specific questions.
+7. Open a Revival Plan with product, architecture, and market strategy.
+8. Export the plan as Markdown or a branded PDF.
+9. Commit the revived project into Resurrection Bay.
+10. Download a GitHub Copilot Resurrection Kit and apply it to the original repo.
 
-## How It Works
+## UI Previews
 
-```text
-GitHub Username
-    -> GitHub API ingestion
-    -> Repo evidence collector
-    -> Local AI server
-        -> Museum exhibit generator
-        -> Revival Plan generator
-        -> Copilot Curator Q&A
-    -> Frontend museum experience
-    -> Resurrection Bay persistence
-    -> Copilot Resurrection Kit export
-```
+These are vector previews generated to mirror the actual product experience and keep the repository self-contained.
+
+<p align="center">
+  <img src="./assets/readme/screenshots/screenshot-welcome-preview.svg" alt="Welcome screen preview" width="48%" />
+  <img src="./assets/readme/screenshots/screenshot-hall-preview.svg" alt="Museum hall preview" width="48%" />
+</p>
+<p align="center">
+  <img src="./assets/readme/screenshots/screenshot-revival-preview.svg" alt="Revival plan preview" width="48%" />
+  <img src="./assets/readme/screenshots/screenshot-resurrection-preview.svg" alt="Resurrection Bay preview" width="48%" />
+</p>
+
+## Before vs After
+
+<p align="center">
+  <img src="./assets/readme/before-after.svg" alt="Before and after transformation diagram" width="100%" />
+</p>
+
+### Before
+
+- static concept museum with four hardcoded rooms
+- no live GitHub user analysis
+- no real repo evidence
+- no grounded Copilot interaction
+- no execution handoff back into a repository
+
+### After
+
+- personalized museum for any GitHub username
+- GitHub-grounded exhibit generation
+- AI-generated autopsies and revival strategy
+- Copilot Curator Q&A with fallback safety
+- persistent Resurrection Bay
+- GitHub Copilot Resurrection Kits for execution
+
+## Architecture
+
+<p align="center">
+  <img src="./assets/readme/architecture.svg" alt="Architecture diagram for Museum of Dead Dreams" width="100%" />
+</p>
+
+High-level architecture:
+
+- `React 19 + TypeScript + Vite` frontend
+- `Tailwind CSS + shadcn/ui` component system
+- `HTML5 Canvas` particles and CSS-driven museum transitions
+- local Node AI server for structured OpenAI calls
+- GitHub REST API ingestion and repo evidence enrichment
+- Zod schema validation for museum, revival, and curator responses
+- `localStorage` persistence for achievements, caches, Resurrection Bay, and shareable museum state
+
+For a deep system walk-through, see [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md).
 
 ## Core Features
 
 ### Personalized Museum Generation
 
-The app fetches public repos, filters forks, ranks them by abandonment, enriches them with grounded evidence, and generates museum-ready narrative exhibits.
+The museum asks for a GitHub username, fetches public repositories, filters forks, ranks the most abandoned repos, and transforms them into exhibits with:
+
+- epitaphs
+- causes of death
+- artifact cards
+- stats and timelines
+- Copilot insights
+- exhibit-specific tags and curator narrative
+
+The exhibit content is grounded with live repo evidence such as:
+
+- languages
+- commit count
+- last push date
+- root file names
+- README excerpt
+- manifest snippets like `package.json`, `pyproject.toml`, `Cargo.toml`, `go.mod`, and more
 
 ### Copilot Curator
 
-Every exhibit includes a Q&A panel where users can ask grounded questions like:
+Every exhibit includes an interactive `Copilot Curator` panel that supports project-specific questions such as:
 
 - Why did this repo probably die?
-- What stack clues do you see here?
+- What signals suggest the stack was incomplete?
 - What would you fix first?
+- Is there still market value here?
+
+It first attempts a live structured answer through the AI server and falls back to grounded heuristics when needed.
 
 ### Revival Plans
 
-Each project can open a six-part `Revival Plan`:
+Every project can open a six-part `Revival Plan`:
 
-- Diagnosis
-- Architecture Overhaul
-- Tech Stack 2026
-- Feature Additions
-- Go-to-Market
-- Resurrection Score
+1. Diagnosis
+2. Architecture Overhaul
+3. Tech Stack 2026
+4. Feature Additions
+5. Go-to-Market
+6. Resurrection Score
+
+The plan is positioned as a CTO-style resurrection memo, not a superficial refactor checklist.
 
 ### Branded PDF Export
 
-Revival plans are exportable as a branded PDF rendered from a hidden, styled HTML document with the same visual language as the museum.
+The Revival Plan can be exported as:
+
+- Markdown for repo-native documentation
+- a branded PDF that follows the museum visual language
+
+The PDF is rendered from a dedicated styled document so the export feels like a premium product artifact, not a plain browser print.
 
 ### Resurrection Bay
 
-Revived projects are saved into a persistent archive room. From there, users can replay the resurrection sequence, preview generated Copilot instructions, and download a full Copilot kit.
+Projects committed from a Revival Plan are saved into a persistent `Resurrection Bay`:
+
+- the room unlocks in the museum hall
+- the project stays there between sessions
+- users can replay the "heaven gate" entrance sequence
+- revival artifacts remain attached to that museum identity
 
 ### GitHub Copilot Resurrection Kits
 
-Each resurrected project can generate:
+Once a project reaches Resurrection Bay, the user can download a repo-ready Copilot kit.
+
+<p align="center">
+  <img src="./assets/readme/copilot-kit.svg" alt="Copilot resurrection kit contents diagram" width="100%" />
+</p>
+
+Each kit contains:
 
 - `.github/copilot-instructions.md`
-- `AGENTS.md`
 - `.github/instructions/resurrection.instructions.md`
 - `.github/skills/<project>-resurrection/SKILL.md`
+- `AGENTS.md`
 - `docs/revival-plan.md`
 - `docs/resurrection-backlog.md`
 
-This turns the museum from a storytelling layer into an execution layer.
+This turns the museum from narrative into execution. The repo can be cloned, the kit dropped in, and GitHub Copilot can immediately start working from structured resurrection guidance.
 
-## Technical Stack
+## Why This Is Different
+
+Most AI portfolio or repo-analysis tools stop at summarization.
+
+Museum of Dead Dreams goes further:
+
+- it converts analysis into an emotional, interactive product experience
+- it does not just summarize code, it diagnoses product failure
+- it creates a full revival strategy instead of a static report
+- it preserves revived projects in an afterlife room
+- it outputs GitHub Copilot assets so the "what next?" problem is actually solved
+
+## ROI Framing
+
+<p align="center">
+  <img src="./assets/readme/roi-dashboard.svg" alt="ROI dashboard for Museum of Dead Dreams" width="100%" />
+</p>
+
+This product has value across several use cases:
+
+- developers auditing dormant side projects
+- startup teams reviewing failed experiments
+- hackathon builders deciding what to resurrect
+- engineering managers triaging inactive internal tools
+- consultants assessing legacy prototypes for clients
+- open-source maintainers deciding whether an abandoned tool should be rebooted
+
+See [docs/ROI.md](./docs/ROI.md) for the longer framing.
+
+## Reliability, Fallbacks, and Product Safety
+
+The project is intentionally built to degrade gracefully instead of breaking:
+
+- museum exhibit generation has offline fallback behavior
+- revival plans switch to template fallback if live analysis stalls
+- Copilot Curator has a grounded fallback response path
+- schema validation happens server-side through Zod
+- requests are cached aggressively to reduce duplicate cost
+- username museum results are cached in `localStorage`
+- revival and curator requests are deduplicated client-side
+
+That matters because the product should feel resilient even when an AI dependency is slow or unavailable.
+
+## Built with GitHub Copilot and Codex
+
+This project is also an explicit story about AI-assisted finishing.
+
+GitHub Copilot and Codex were used to help:
+
+- evolve the product architecture
+- refactor flows from static to dynamic GitHub-based analysis
+- design the revival workflow
+- harden fallbacks and persistence
+- create README and launch documentation
+- package repo-ready Copilot instructions and skills
+
+This is documented transparently in [docs/COPILOT_JOURNEY.md](./docs/COPILOT_JOURNEY.md).
+
+## Tech Stack
 
 - React 19
 - TypeScript
-- Vite
+- Vite 7
 - Tailwind CSS
 - shadcn/ui
-- GitHub REST API
+- lucide-react
+- HTML5 Canvas API
 - OpenAI SDK
-- Zod structured validation
-- local Node AI server
-- HTML5 Canvas API for particles
-- `html2canvas` + `jspdf` for branded PDF export
-- `jszip` for Copilot kit packaging
-
-## Reliability and Fallbacks
-
-The product is designed to degrade gracefully.
-
-- If museum exhibit generation fails, it falls back to local template generation.
-- If the revival-plan request fails or times out, it falls back to the offline revival engine.
-- If Copilot Curator fails, it returns a grounded local heuristic answer instead of breaking the panel.
-- AI outputs are schema-validated server-side.
-- museum, revival, and curator responses are cached.
-- personalized museum generation is cached by username.
-
-This is important: the UX should not collapse just because one AI request fails.
-
-## GitHub Copilot Angle
-
-This project does not use AI only for writing text.
-
-It uses AI to:
-
-- narrate abandoned repositories
-- generate structured revival strategies
-- answer repo-specific questions through Copilot Curator
-- produce repo-ready GitHub Copilot guidance files
-
-### How GitHub Copilot helped finish this project
-
-GitHub Copilot and Codex were used to help move the project from a static concept into a full-stack product. They were especially useful for:
-
-- architecture inspection
-- flow refactoring
-- fallback hardening
-- documentation generation
-- README and launch prep
-- UI iteration
-- Copilot kit generation design
-
-This is not presented as "Copilot wrote everything." It is presented honestly: Copilot helped accelerate the completion arc and product polish.
+- Zod
+- GitHub REST API
+- html2canvas
+- jsPDF
+- JSZip
 
 ## Quickstart
 
 ```bash
-cd app
+git clone https://github.com/jpablortiz96/Museum-of-Dead-Dreams.git
+cd Museum-of-Dead-Dreams/app
 npm install
 cp .env.example .env.local
 npm run dev
 ```
 
-### Environment Variables
+### Required Environment Variables
+
+Create `app/.env.local`:
+
+```env
+OPENAI_API_KEY=sk-...
+OPENAI_MUSEUM_MODEL=gpt-5.4-mini
+OPENAI_REVIVAL_MODEL=gpt-5.4-mini
+OPENAI_CURATOR_MODEL=gpt-5.4-mini
+REVIVAL_API_PORT=8787
+VITE_GITHUB_TOKEN=github_pat_optional_for_higher_rate_limits
+```
+
+### Environment Variable Reference
 
 | Variable | Required | Purpose |
 | --- | --- | --- |
 | `OPENAI_API_KEY` | Yes for live AI | Enables museum exhibit generation, revival plans, and Copilot Curator |
-| `OPENAI_MUSEUM_MODEL` | Optional | Model override for exhibit generation |
-| `OPENAI_REVIVAL_MODEL` | Optional | Model override for revival plans |
-| `OPENAI_CURATOR_MODEL` | Optional | Model override for Copilot Curator |
+| `OPENAI_MUSEUM_MODEL` | Optional | Model override for museum exhibit generation |
+| `OPENAI_REVIVAL_MODEL` | Optional | Model override for revival plan generation |
+| `OPENAI_CURATOR_MODEL` | Optional | Model override for curator answers |
 | `REVIVAL_API_PORT` | Optional | Local AI server port |
 | `VITE_GITHUB_TOKEN` | Optional | Raises GitHub API rate limits during development |
-| `VITE_REVIVAL_API_BASE_URL` | Optional | External API host instead of Vite proxy |
+| `VITE_REVIVAL_API_BASE_URL` | Optional | External AI host instead of local Vite proxy |
 
 ### Scripts
 
 | Command | What it does |
 | --- | --- |
-| `npm run dev` | Starts frontend and local AI server together |
-| `npm run dev:web` | Starts Vite frontend only |
-| `npm run dev:api` | Starts local AI server only |
+| `npm run dev` | Starts the frontend and AI server together |
+| `npm run dev:web` | Starts the Vite frontend only |
+| `npm run dev:api` | Starts the local AI server only |
 | `npm run build` | Runs TypeScript build and Vite production build |
 | `npm run lint` | Runs ESLint |
-| `npm run preview` | Serves production build locally |
+| `npm run preview` | Serves the production build locally |
 
-## Repository Structure
+## Repository Layout
 
 ```text
 .
+|-- .github/
+|-- assets/
+|   `-- readme/
+|-- docs/
 |-- CONTEXT.md
 |-- DEV_POST.md
 |-- README.md
 `-- app/
+    |-- public/
     |-- server/
     |   |-- dev-api.mjs
     |   `-- revival-server.mjs
     `-- src/
-        |-- App.tsx
         |-- components/
         |-- data/
         |-- services/
@@ -243,31 +374,53 @@ npm run dev
         `-- utils/
 ```
 
-## Built for GitHub Finish-Up-A-Thon 2026
+## Documentation Index
 
-This repo is intentionally positioned around the challenge's strongest dimensions:
+- [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md)
+- [docs/BEFORE_AFTER.md](./docs/BEFORE_AFTER.md)
+- [docs/COPILOT_JOURNEY.md](./docs/COPILOT_JOURNEY.md)
+- [docs/ROI.md](./docs/ROI.md)
+- [docs/DEMO_SCRIPT.md](./docs/DEMO_SCRIPT.md)
+- [docs/SUBMISSION_CHECKLIST.md](./docs/SUBMISSION_CHECKLIST.md)
+- [CONTEXT.md](./CONTEXT.md)
 
-- underlying technology
-- usability and UX
-- originality and creativity
-- a visible completion arc
-- a strong "before / after" story
-- transparent GitHub Copilot usage
+## Finish-Up-A-Thon Positioning
 
-This is not just a polished demo. It is a finished product direction built on top of abandoned code.
+This project was intentionally pushed beyond a concept demo into a shippable narrative product:
+
+- a clear "before vs after" completion story
+- strong originality in metaphor and UX
+- live GitHub grounding instead of fake placeholder data
+- thoughtful fallback design for reliability
+- a visible GitHub Copilot integration story
+- concrete outputs that can be applied back to real repositories
+
+## Roadmap
+
+- real screenshot capture pipeline for the README gallery
+- multi-user comparison mode between museum graveyards
+- richer manifest and architecture evidence ingestion
+- collaboration mode for team resurrection planning
+- deeper GitHub Copilot agent distribution workflow
 
 ## Privacy and Scope
 
-- Only public GitHub repository data is analyzed.
-- No private repos are fetched.
-- Generated outputs are based on public metadata plus recovered grounded evidence such as README excerpts, root items, and manifest snippets.
+- only public GitHub repository data is analyzed
+- no private repositories are fetched
+- local cache is browser-scoped
+- AI outputs are grounded with public repo evidence and validated before use
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 ## Credits
 
-Built by Juan Pablo Enriquez Ortiz / Eduky.
+Built by Juan Pablo Enriquez Ortiz.
 
-AI-assisted development disclosure:
+Tools and platforms used:
 
-- GitHub API for repo analysis
+- GitHub REST API for repository discovery and evidence
 - OpenAI API for structured generation
-- GitHub Copilot / Codex for product completion support
+- GitHub Copilot and Codex for assisted product completion
+- React, TypeScript, Vite, Tailwind, and shadcn/ui for the product experience

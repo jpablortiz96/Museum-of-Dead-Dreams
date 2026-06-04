@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Museum of Dead Dreams asset</title>
+  <desc id="desc">Generated repository asset for README visuals.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06070d"/>
+      <stop offset="48%" stop-color="#130d1f"/>
+      <stop offset="100%" stop-color="#180b12"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGradient)"/>
+  <circle cx="1360" cy="150" r="180" fill="#8b5cf6" opacity="0.12" filter="url(#softGlow)"/>
+  <circle cx="200" cy="760" r="160" fill="#ef4444" opacity="0.1" filter="url(#softGlow)"/>
+  <circle cx="880.0000000000001" cy="702" r="220" fill="#7dd3fc" opacity="0.08" filter="url(#softGlow)"/>
+  <g opacity="0.12">
+    <path d="M0 800 H1600" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 840 H1600" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  
+    <g>
+      
+    <g transform="translate(84 70)">
+      <rect width="174" height="34" rx="17" fill="#22d3ee" opacity="0.16" stroke="#22d3ee" stroke-opacity="0.45"/>
+      <text x="87" y="22" text-anchor="middle" fill="#22d3ee" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="3">AI MUSEUM</text>
+    </g>
+  
+      
+    <g transform="translate(268 70)">
+      <rect width="188" height="34" rx="17" fill="#f59e0b" opacity="0.16" stroke="#f59e0b" stroke-opacity="0.45"/>
+      <text x="94" y="22" text-anchor="middle" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="3">GITHUB API</text>
+    </g>
+  
+      
+    <g transform="translate(470 70)">
+      <rect width="202" height="34" rx="17" fill="#8b5cf6" opacity="0.16" stroke="#8b5cf6" stroke-opacity="0.45"/>
+      <text x="101" y="22" text-anchor="middle" fill="#8b5cf6" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="3">COPILOT KIT</text>
+    </g>
+  
+      <text x="88" y="220" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="82" font-weight="700">Museum of Dead Dreams</text>
+      <text x="88" y="278" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="28">AI-powered GitHub project resurrection</text>
+      <text x="88" y="336" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="24">Resurrect abandoned GitHub projects with AI + Copilot execution kits.</text>
+
+      <g transform="translate(90 420)">
+        <rect width="640" height="320" rx="36" fill="url(#cardGradient)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="38" y="54" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Museum Hall</text>
+        <rect x="38" y="90" width="170" height="190" rx="24" fill="#111827" stroke="#ef4444" stroke-opacity="0.32"/>
+        <rect x="232" y="90" width="170" height="190" rx="24" fill="#111827" stroke="#8b5cf6" stroke-opacity="0.32"/>
+        <rect x="426" y="90" width="170" height="190" rx="24" fill="#111827" stroke="#f59e0b" stroke-opacity="0.32"/>
+        <text x="58" y="128" fill="#ef4444" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">DECEASED</text>
+        <text x="252" y="128" fill="#8b5cf6" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">UNDEAD</text>
+        <text x="446" y="128" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">MUMMIFIED</text>
+        <text x="58" y="170" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="24">CORTEX</text>
+        <text x="252" y="170" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="24">Conforma</text>
+        <text x="446" y="170" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="24">CodeSonify</text>
+        <text x="58" y="210" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Trading system with no second life.</text>
+        <text x="252" y="210" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">6-agent compliance machine.</text>
+        <text x="446" y="210" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Prototype that learned to sing.</text>
+      </g>
+
+      <g transform="translate(850 160)">
+        <circle cx="220" cy="230" r="94" fill="#7dd3fc" opacity="0.16" filter="url(#softGlow)"/>
+        <circle cx="220" cy="230" r="56" fill="none" stroke="#7dd3fc" stroke-width="8" stroke-opacity="0.75"/>
+        <circle cx="220" cy="230" r="26" fill="#7dd3fc" opacity="0.85"/>
+        <path d="M220 36 V112" stroke="#7dd3fc" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 16" opacity="0.65"/>
+        <path d="M220 348 V424" stroke="#7dd3fc" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 16" opacity="0.65"/>
+        <text x="220" y="26" text-anchor="middle" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="16" letter-spacing="3">OPENAI</text>
+        <text x="220" y="454" text-anchor="middle" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="16" letter-spacing="3">RESURRECTION BAY</text>
+
+        <rect x="20" y="118" width="162" height="74" rx="20" fill="#111827" stroke="rgba(255,255,255,0.1)"/>
+        <text x="40" y="150" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">GitHub API</text>
+        <text x="40" y="174" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14">Repos + commits + manifests</text>
+
+        <rect x="256" y="118" width="182" height="74" rx="20" fill="#111827" stroke="rgba(255,255,255,0.1)"/>
+        <text x="276" y="150" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Curator AI</text>
+        <text x="276" y="174" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14">Exhibits + Q&A + plans</text>
+
+        <rect x="92" y="276" width="258" height="94" rx="24" fill="#111827" stroke="rgba(255,255,255,0.1)"/>
+        <text x="112" y="316" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Copilot Resurrection Kit</text>
+        <text x="112" y="344" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14">instructions + skill + backlog + plan</text>
+      </g>
+    </g>
+  
+</svg>

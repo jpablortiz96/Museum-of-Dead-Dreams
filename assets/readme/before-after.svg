@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Museum of Dead Dreams asset</title>
+  <desc id="desc">Generated repository asset for README visuals.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06070d"/>
+      <stop offset="48%" stop-color="#130d1f"/>
+      <stop offset="100%" stop-color="#180b12"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGradient)"/>
+  <circle cx="1360" cy="150" r="180" fill="#8b5cf6" opacity="0.12" filter="url(#softGlow)"/>
+  <circle cx="200" cy="760" r="160" fill="#ef4444" opacity="0.1" filter="url(#softGlow)"/>
+  <circle cx="880.0000000000001" cy="702" r="220" fill="#7dd3fc" opacity="0.08" filter="url(#softGlow)"/>
+  <g opacity="0.12">
+    <path d="M0 800 H1600" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 840 H1600" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  
+    <text x="80" y="96" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="58" font-weight="700">Before / After</text>
+    <text x="80" y="138" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">The completion arc that turns a static demo into a real AI platform.</text>
+    <g transform="translate(84 210)">
+      <rect width="658" height="594" rx="34" fill="#120d16" stroke="#ef4444" stroke-opacity="0.28"/>
+      <text x="40" y="62" fill="#ef4444" font-family="'JetBrains Mono', monospace" font-size="18" letter-spacing="4">BEFORE</text>
+      <text x="40" y="112" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="40" font-weight="700">Static Prototype</text>
+      
+            <g transform="translate(40 180)">
+              <circle cx="10" cy="10" r="5" fill="#ef4444"/>
+              <text x="30" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Hardcoded four-room showcase</text>
+            </g>
+          
+            <g transform="translate(40 236)">
+              <circle cx="10" cy="10" r="5" fill="#ef4444"/>
+              <text x="30" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">No live GitHub ingestion</text>
+            </g>
+          
+            <g transform="translate(40 292)">
+              <circle cx="10" cy="10" r="5" fill="#ef4444"/>
+              <text x="30" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">No repo grounding or evidence recovery</text>
+            </g>
+          
+            <g transform="translate(40 348)">
+              <circle cx="10" cy="10" r="5" fill="#ef4444"/>
+              <text x="30" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">No AI-generated revival plans</text>
+            </g>
+          
+            <g transform="translate(40 404)">
+              <circle cx="10" cy="10" r="5" fill="#ef4444"/>
+              <text x="30" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">No Copilot Curator</text>
+            </g>
+          
+            <g transform="translate(40 460)">
+              <circle cx="10" cy="10" r="5" fill="#ef4444"/>
+              <text x="30" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">No persistent archive</text>
+            </g>
+          
+            <g transform="translate(40 516)">
+              <circle cx="10" cy="10" r="5" fill="#ef4444"/>
+              <text x="30" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">No exportable business artifact</text>
+            </g>
+          
+    </g>
+    <g transform="translate(860 210)">
+      <rect width="658" height="594" rx="34" fill="#0c1420" stroke="#22c55e" stroke-opacity="0.28"/>
+      <text x="40" y="62" fill="#22c55e" font-family="'JetBrains Mono', monospace" font-size="18" letter-spacing="4">AFTER</text>
+      <text x="40" y="112" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="40" font-weight="700">AI Revival Platform</text>
+      
+            <g transform="translate(40 180)">
+              <rect x="0" y="0" width="20" height="20" rx="6" fill="#22c55e" opacity="0.2"/>
+              <path d="M6 10 L9 13 L15 6" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Live GitHub profile analysis</text>
+            </g>
+          
+            <g transform="translate(40 236)">
+              <rect x="0" y="0" width="20" height="20" rx="6" fill="#22c55e" opacity="0.2"/>
+              <path d="M6 10 L9 13 L15 6" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Abandonment ranking and fork filtering</text>
+            </g>
+          
+            <g transform="translate(40 292)">
+              <rect x="0" y="0" width="20" height="20" rx="6" fill="#22c55e" opacity="0.2"/>
+              <path d="M6 10 L9 13 L15 6" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Grounded AI exhibit generation</text>
+            </g>
+          
+            <g transform="translate(40 348)">
+              <rect x="0" y="0" width="20" height="20" rx="6" fill="#22c55e" opacity="0.2"/>
+              <path d="M6 10 L9 13 L15 6" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Copilot Curator Q&A</text>
+            </g>
+          
+            <g transform="translate(40 404)">
+              <rect x="0" y="0" width="20" height="20" rx="6" fill="#22c55e" opacity="0.2"/>
+              <path d="M6 10 L9 13 L15 6" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Revival Plan engine + branded PDF</text>
+            </g>
+          
+            <g transform="translate(40 460)">
+              <rect x="0" y="0" width="20" height="20" rx="6" fill="#22c55e" opacity="0.2"/>
+              <path d="M6 10 L9 13 L15 6" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Persistent Resurrection Bay archive</text>
+            </g>
+          
+            <g transform="translate(40 516)">
+              <rect x="0" y="0" width="20" height="20" rx="6" fill="#22c55e" opacity="0.2"/>
+              <path d="M6 10 L9 13 L15 6" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="34" y="16" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Downloadable Copilot Resurrection Kits</text>
+            </g>
+          
+    </g>
+    
+    <g>
+      <path d="M744 507 C 794 507, 794 507, 844 507" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+      <path d="M828 497 L844 507 L828 517" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+    </g>
+  
+  
+</svg>

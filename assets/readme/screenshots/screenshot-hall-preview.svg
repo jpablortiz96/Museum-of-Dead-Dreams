@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Museum of Dead Dreams asset</title>
+  <desc id="desc">Generated repository asset for README visuals.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06070d"/>
+      <stop offset="48%" stop-color="#130d1f"/>
+      <stop offset="100%" stop-color="#180b12"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGradient)"/>
+  <circle cx="1360" cy="150" r="180" fill="#8b5cf6" opacity="0.12" filter="url(#softGlow)"/>
+  <circle cx="200" cy="760" r="160" fill="#ef4444" opacity="0.1" filter="url(#softGlow)"/>
+  <circle cx="880.0000000000001" cy="702" r="220" fill="#7dd3fc" opacity="0.08" filter="url(#softGlow)"/>
+  <g opacity="0.12">
+    <path d="M0 800 H1600" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 840 H1600" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  
+    <text x="76" y="86" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="48" font-weight="700">UI Preview - Museum Hall</text>
+    <rect x="70" y="130" width="1460" height="700" rx="40" fill="url(#cardGradient)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="120" y="224" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="74" font-weight="700">Museum of Dead Dreams</text>
+    <text x="120" y="274" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Curated from live GitHub repository analysis.</text>
+    
+          <g transform="translate(120 350)">
+            <rect width="560" height="170" rx="28" fill="#0d1322" stroke="#ef4444" stroke-opacity="0.26"/>
+            <text x="28" y="46" fill="#ef4444" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="2">EXHIBIT</text>
+            <text x="28" y="90" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34">FINEY_RUBRO</text>
+            <text x="28" y="126" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">LOC 12,400  ·  Commits 18  ·  842d silent</text>
+          </g>
+        
+          <g transform="translate(770 350)">
+            <rect width="560" height="170" rx="28" fill="#0d1322" stroke="#8b5cf6" stroke-opacity="0.26"/>
+            <text x="28" y="46" fill="#8b5cf6" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="2">EXHIBIT</text>
+            <text x="28" y="90" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34">trade-bot</text>
+            <text x="28" y="126" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">LOC 12,400  ·  Commits 18  ·  842d silent</text>
+          </g>
+        
+          <g transform="translate(120 560)">
+            <rect width="560" height="170" rx="28" fill="#0d1322" stroke="#f59e0b" stroke-opacity="0.26"/>
+            <text x="28" y="46" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="2">EXHIBIT</text>
+            <text x="28" y="90" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34">old-dashboard</text>
+            <text x="28" y="126" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">LOC 12,400  ·  Commits 18  ·  842d silent</text>
+          </g>
+        
+          <g transform="translate(770 560)">
+            <rect width="560" height="170" rx="28" fill="#0d1322" stroke="#7dd3fc" stroke-opacity="0.26"/>
+            <text x="28" y="46" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="2">REBIRTH</text>
+            <text x="28" y="90" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34">Resurrection Bay</text>
+            <text x="28" y="126" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">LOC 12,400  ·  Commits 18  ·  842d silent</text>
+          </g>
+        
+  
+</svg>

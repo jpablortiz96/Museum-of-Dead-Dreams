@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Museum of Dead Dreams asset</title>
+  <desc id="desc">Generated repository asset for README visuals.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06070d"/>
+      <stop offset="48%" stop-color="#130d1f"/>
+      <stop offset="100%" stop-color="#180b12"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGradient)"/>
+  <circle cx="1360" cy="150" r="180" fill="#8b5cf6" opacity="0.12" filter="url(#softGlow)"/>
+  <circle cx="200" cy="760" r="160" fill="#ef4444" opacity="0.1" filter="url(#softGlow)"/>
+  <circle cx="880.0000000000001" cy="702" r="220" fill="#7dd3fc" opacity="0.08" filter="url(#softGlow)"/>
+  <g opacity="0.12">
+    <path d="M0 800 H1600" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 840 H1600" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  
+    <text x="80" y="96" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="58" font-weight="700">Copilot Resurrection Kit</text>
+    <text x="80" y="138" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Repository-ready files that turn inspiration into a real implementation workflow.</text>
+
+    <g transform="translate(86 210)">
+      <rect width="560" height="610" rx="34" fill="url(#cardGradient)" stroke="rgba(255,255,255,0.1)"/>
+      <text x="36" y="56" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Generated file tree</text>
+      <text x="38" y="118" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="22">.github/</text>
+      <text x="72" y="160" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="20">copilot-instructions.md</text>
+      <text x="72" y="198" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="20">instructions/resurrection.instructions.md</text>
+      <text x="72" y="236" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="20">skills/project-resurrection/SKILL.md</text>
+      <text x="38" y="302" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="22">AGENTS.md</text>
+      <text x="38" y="368" fill="#8b5cf6" font-family="'JetBrains Mono', monospace" font-size="22">docs/</text>
+      <text x="72" y="410" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="20">revival-plan.md</text>
+      <text x="72" y="448" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="20">resurrection-backlog.md</text>
+    </g>
+
+    <g transform="translate(760 218)">
+      
+    <g transform="translate(0 0)">
+      <rect width="680" height="144" rx="24" fill="#0b1020" stroke="#22d3ee" stroke-opacity="0.24"/>
+      <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">WHY IT MATTERS</text>
+      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">Copilot gets a product memory, delivery plan, and execution lane.</text>
+    </g>
+  
+      
+    <g transform="translate(0 184)">
+      <rect width="680" height="166" rx="24" fill="#0d1322" stroke="#7dd3fc" stroke-opacity="0.28"/>
+      <text x="24" y="38" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Repository instructions</text>
+      <text x="24" y="72" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Guide Copilot toward the new architecture</text><text x="24" y="100" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Preserve fallbacks, PDF export, and Resurrection Bay</text>
+    </g>
+  
+      
+    <g transform="translate(0 382)">
+      <rect width="680" height="166" rx="24" fill="#0d1322" stroke="#8b5cf6" stroke-opacity="0.28"/>
+      <text x="24" y="38" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Project-specific skill</text>
+      <text x="24" y="72" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Teach Copilot how to revive this exact product</text><text x="24" y="100" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Bind implementation to docs/revival-plan.md</text>
+    </g>
+  
+      
+    <g transform="translate(0 580)">
+      <rect width="680" height="166" rx="24" fill="#0d1322" stroke="#f59e0b" stroke-opacity="0.28"/>
+      <text x="24" y="38" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Execution docs</text>
+      <text x="24" y="72" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Backlog, commercial framing, and priorities live inside the repo</text><text x="24" y="100" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Developers can move from museum insight to code</text>
+    </g>
+  
+    </g>
+  
+</svg>

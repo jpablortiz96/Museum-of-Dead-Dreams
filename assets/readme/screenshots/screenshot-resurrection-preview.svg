@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Museum of Dead Dreams asset</title>
+  <desc id="desc">Generated repository asset for README visuals.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06070d"/>
+      <stop offset="48%" stop-color="#130d1f"/>
+      <stop offset="100%" stop-color="#180b12"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGradient)"/>
+  <circle cx="1360" cy="150" r="180" fill="#8b5cf6" opacity="0.12" filter="url(#softGlow)"/>
+  <circle cx="200" cy="760" r="160" fill="#ef4444" opacity="0.1" filter="url(#softGlow)"/>
+  <circle cx="880.0000000000001" cy="702" r="220" fill="#7dd3fc" opacity="0.08" filter="url(#softGlow)"/>
+  <g opacity="0.12">
+    <path d="M0 800 H1600" stroke="#ffffff" stroke-width="1"/>
+    <path d="M0 840 H1600" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  
+    <text x="76" y="86" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="48" font-weight="700">UI Preview - Resurrection Bay</text>
+    <rect x="70" y="130" width="1460" height="700" rx="40" fill="url(#cardGradient)" stroke="rgba(255,255,255,0.1)"/>
+    
+    <g transform="translate(120 168)">
+      <rect width="272" height="34" rx="17" fill="#7dd3fc" opacity="0.16" stroke="#7dd3fc" stroke-opacity="0.45"/>
+      <text x="136" y="22" text-anchor="middle" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="3">RESURRECTION BAY</text>
+    </g>
+  
+    <text x="120" y="250" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="66" font-weight="700">Through the Gates of Rebirth</text>
+    <text x="120" y="298" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">Persistent archive of revived projects, Copilot kits, and replayable resurrection protocols.</text>
+    
+    <g transform="translate(120 346)">
+      <rect width="260" height="132" rx="24" fill="#0b1020" stroke="#22d3ee" stroke-opacity="0.24"/>
+      <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">PROJECTS RECLAIMED</text>
+      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">4</text>
+    </g>
+  
+    
+    <g transform="translate(412 346)">
+      <rect width="260" height="132" rx="24" fill="#0b1020" stroke="#8b5cf6" stroke-opacity="0.24"/>
+      <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">LINES PULLED BACK</text>
+      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">43,220</text>
+    </g>
+  
+    
+    <g transform="translate(704 346)">
+      <rect width="340" height="132" rx="24" fill="#0b1020" stroke="#f59e0b" stroke-opacity="0.24"/>
+      <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">AVERAGE SCORE</text>
+      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">78/100</text>
+    </g>
+  
+    <rect x="120" y="520" width="410" height="250" rx="28" fill="#0d1322" stroke="rgba(255,255,255,0.1)"/>
+    <text x="152" y="566" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Resurrected Archive</text>
+    
+          <rect x="152" y="598" width="346" height="40" rx="14" fill="#111827" stroke="#7dd3fc"/>
+          <text x="172" y="624" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18">FINEY_RUBRO</text>
+        
+          <rect x="152" y="652" width="346" height="40" rx="14" fill="#111827" stroke="rgba(255,255,255,0.08)"/>
+          <text x="172" y="678" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18">CORTEX Trading</text>
+        
+          <rect x="152" y="706" width="346" height="40" rx="14" fill="#111827" stroke="rgba(255,255,255,0.08)"/>
+          <text x="172" y="732" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18">Conforma-AI</text>
+        
+    <rect x="568" y="520" width="440" height="250" rx="28" fill="#0d1322" stroke="rgba(255,255,255,0.1)"/>
+    <text x="600" y="566" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Heaven Gate Protocol</text>
+    
+          <rect x="600" y="598" width="376" height="32" rx="12" fill="#10311f" stroke="#22c55e"/>
+          <text x="620" y="620" fill="#22c55e" font-family="Inter, Arial, sans-serif" font-size="16">Autopsy Recall</text>
+        
+          <rect x="600" y="640" width="376" height="32" rx="12" fill="#10311f" stroke="#22c55e"/>
+          <text x="620" y="662" fill="#22c55e" font-family="Inter, Arial, sans-serif" font-size="16">Blueprint Rewrite</text>
+        
+          <rect x="600" y="682" width="376" height="32" rx="12" fill="#111827" stroke="rgba(255,255,255,0.08)"/>
+          <text x="620" y="704" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Copilot Skill Imprint</text>
+        
+          <rect x="600" y="724" width="376" height="32" rx="12" fill="#111827" stroke="rgba(255,255,255,0.08)"/>
+          <text x="620" y="746" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Launch Readiness</text>
+        
+    <rect x="1044" y="520" width="426" height="250" rx="28" fill="#0d1322" stroke="rgba(255,255,255,0.1)"/>
+    <text x="1076" y="566" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Copilot Kit</text>
+    <text x="1076" y="610" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="15">.github/copilot-instructions.md</text>
+    <text x="1076" y="640" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="15">AGENTS.md</text>
+    <text x="1076" y="670" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="15">docs/revival-plan.md</text>
+    <text x="1076" y="700" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="15">docs/resurrection-backlog.md</text>
+  
+</svg>
