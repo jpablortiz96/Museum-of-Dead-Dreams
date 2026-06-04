@@ -42,110 +42,110 @@
     <text x="80" y="144" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">From a GitHub handle to a Copilot-ready resurrection workflow.</text>
     <rect x="72" y="210" width="1456" height="380" rx="38" fill="url(#cardGradient)" stroke="rgba(255,255,255,0.1)"/>
     
-        <g transform="translate(70 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="#22d3ee" stroke-opacity="0.28"/>
+        <g transform="translate(68 310)">
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="#22d3ee" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="#22d3ee" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#22d3ee" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">1</text>
-          <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Enter username</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">GitHub profile input</text>
+          <text x="18" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Enter user</text>
+          <text x="18" y="132" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12.5">GitHub handle</text>
         </g>
         
     <g>
-      <path d="M230 420 C 242 420, 242 420, 254 420" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
-      <path d="M238 410 L254 420 L238 430" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+      <path d="M234 420 C 241 420, 241 420, 248 420" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+      <path d="M232 410 L248 420 L232 430" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
     </g>
   
       
-        <g transform="translate(255 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="#f59e0b" stroke-opacity="0.28"/>
+        <g transform="translate(250 310)">
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="#f59e0b" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="#f59e0b" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">2</text>
-          <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Scan repos</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Find public abandoned work</text>
+          <text x="18" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Scan repos</text>
+          <text x="18" y="132" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12.5">Find stale repos</text>
         </g>
         
     <g>
-      <path d="M415 420 C 427 420, 427 420, 439 420" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
-      <path d="M423 410 L439 420 L423 430" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+      <path d="M416 420 C 423 420, 423 420, 430 420" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+      <path d="M414 410 L430 420 L414 430" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
     </g>
   
       
-        <g transform="translate(440 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="#ef4444" stroke-opacity="0.28"/>
+        <g transform="translate(432 310)">
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="#ef4444" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="#ef4444" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#ef4444" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">3</text>
-          <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Visit exhibit</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Explore AI museum room</text>
+          <text x="18" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Visit exhibit</text>
+          <text x="18" y="132" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12.5">Enter museum room</text>
         </g>
         
     <g>
-      <path d="M600 420 C 612 420, 612 420, 624 420" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
-      <path d="M608 410 L624 420 L608 430" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+      <path d="M598 420 C 605 420, 605 420, 612 420" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+      <path d="M596 410 L612 420 L596 430" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
     </g>
   
       
-        <g transform="translate(625 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="#7dd3fc" stroke-opacity="0.28"/>
+        <g transform="translate(614 310)">
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="#7dd3fc" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="#7dd3fc" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">4</text>
-          <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Ask curator</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Grounded Q&amp;A per project</text>
+          <text x="18" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Ask curator</text>
+          <text x="18" y="132" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12.5">Grounded Q&amp;A</text>
         </g>
         
     <g>
-      <path d="M785 420 C 797 420, 797 420, 809 420" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
-      <path d="M793 410 L809 420 L793 430" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+      <path d="M780 420 C 787 420, 787 420, 794 420" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+      <path d="M778 410 L794 420 L778 430" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
     </g>
   
       
-        <g transform="translate(810 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="#8b5cf6" stroke-opacity="0.28"/>
+        <g transform="translate(796 310)">
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="#8b5cf6" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="#8b5cf6" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#8b5cf6" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">5</text>
-          <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Generate plan</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Diagnosis + stack + GTM</text>
+          <text x="18" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Generate plan</text>
+          <text x="18" y="132" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12.5">Strategy report</text>
         </g>
         
     <g>
-      <path d="M970 420 C 982 420, 982 420, 994 420" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
-      <path d="M978 410 L994 420 L978 430" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+      <path d="M962 420 C 969 420, 969 420, 976 420" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+      <path d="M960 410 L976 420 L960 430" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
     </g>
   
       
-        <g transform="translate(995 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="#22c55e" stroke-opacity="0.28"/>
+        <g transform="translate(978 310)">
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="#22c55e" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="#22c55e" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#22c55e" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">6</text>
-          <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Export PDF</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Shareable executive brief</text>
+          <text x="18" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Export PDF</text>
+          <text x="18" y="132" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12.5">Branded brief</text>
         </g>
         
     <g>
-      <path d="M1155 420 C 1167 420, 1167 420, 1179 420" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
-      <path d="M1163 410 L1179 420 L1163 430" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+      <path d="M1144 420 C 1151 420, 1151 420, 1158 420" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+      <path d="M1142 410 L1158 420 L1142 430" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
     </g>
   
       
-        <g transform="translate(1180 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="#f59e0b" stroke-opacity="0.28"/>
+        <g transform="translate(1160 310)">
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="#f59e0b" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="#f59e0b" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">7</text>
-          <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Commit to Bay</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Persistent archive entry</text>
+          <text x="18" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Commit to Bay</text>
+          <text x="18" y="132" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12.5">Archive revival</text>
         </g>
         
     <g>
-      <path d="M1340 420 C 1352 420, 1352 420, 1364 420" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
-      <path d="M1348 410 L1364 420 L1348 430" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+      <path d="M1326 420 C 1333 420, 1333 420, 1340 420" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+      <path d="M1324 410 L1340 420 L1324 430" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
     </g>
   
       
-        <g transform="translate(1365 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="#22d3ee" stroke-opacity="0.28"/>
+        <g transform="translate(1342 310)">
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="#22d3ee" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="#22d3ee" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="#22d3ee" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">8</text>
-          <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Download kit</text>
-          <text x="22" y="134" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Copilot-ready repo files</text>
+          <text x="18" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Download kit</text>
+          <text x="18" y="132" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12.5">Copilot files</text>
         </g>
         
       

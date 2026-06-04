@@ -55,13 +55,12 @@
     </g>
 
     <g transform="translate(760 218)">
-      
-    <g transform="translate(0 0)">
-      <rect width="680" height="144" rx="24" fill="#0b1020" stroke="#22d3ee" stroke-opacity="0.24"/>
-      <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">WHY IT MATTERS</text>
-      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">Copilot gets a product memory, delivery plan, and execution lane.</text>
-    </g>
-  
+      <g transform="translate(0 0)">
+        <rect width="680" height="144" rx="24" fill="#0b1020" stroke="#22d3ee" stroke-opacity="0.24"/>
+        <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">WHY IT MATTERS</text>
+        <text x="26" y="76" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="24" font-weight="700">Copilot gets product memory,</text>
+        <text x="26" y="106" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="24" font-weight="700">a delivery plan, and a clear execution lane.</text>
+      </g>
       
     <g transform="translate(0 184)">
       <rect width="680" height="166" rx="24" fill="#0d1322" stroke="#7dd3fc" stroke-opacity="0.28"/>

@@ -45,28 +45,28 @@
     <g transform="translate(82 220)">
       <rect width="290" height="150" rx="24" fill="#0b1020" stroke="#22d3ee" stroke-opacity="0.24"/>
       <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">10 REPOS</text>
-      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">5-10 hrs saved</text>
+      <text x="26" y="74" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="28" font-weight="700">5-10 hrs saved</text>
     </g>
   
     
     <g transform="translate(402 220)">
       <rect width="290" height="150" rx="24" fill="#0b1020" stroke="#8b5cf6" stroke-opacity="0.24"/>
       <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">50 REPOS</text>
-      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">25-50 hrs saved</text>
+      <text x="26" y="74" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="28" font-weight="700">25-50 hrs saved</text>
     </g>
   
     
     <g transform="translate(722 220)">
       <rect width="290" height="150" rx="24" fill="#0b1020" stroke="#f59e0b" stroke-opacity="0.24"/>
       <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">FIRST PASS</text>
-      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">Minutes, not days</text>
+      <text x="26" y="74" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="28" font-weight="700">Minutes, not days</text>
     </g>
   
     
     <g transform="translate(1042 220)">
       <rect width="390" height="150" rx="24" fill="#0b1020" stroke="#22c55e" stroke-opacity="0.24"/>
       <text x="26" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">STRATEGIC VALUE</text>
-      <text x="26" y="78" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">Discovery + prioritization compressed</text>
+      <text x="26" y="74" fill="#f8fafc" font-family="Cinzel, Georgia, serif" font-size="28" font-weight="700">Faster prioritization</text>
     </g>
   
 

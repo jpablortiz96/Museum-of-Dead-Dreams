@@ -97,7 +97,7 @@ function metricCard(x, y, w, h, label, value, tone) {
     <g transform="translate(${x} ${y})">
       <rect width="${w}" height="${h}" rx="24" fill="#0b1020" stroke="${tone}" stroke-opacity="0.24"/>
       <text x="26" y="34" fill="${theme.muted}" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">${label}</text>
-      <text x="26" y="78" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">${value}</text>
+      <text x="26" y="74" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="28" font-weight="700">${value}</text>
     </g>
   `;
 }
@@ -145,21 +145,24 @@ function heroSvg() {
       <text x="88" y="278" fill="${theme.blue}" font-family="Inter, Arial, sans-serif" font-size="28">AI-powered GitHub project resurrection</text>
       <text x="88" y="336" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="24">Resurrect abandoned GitHub projects with AI + Copilot execution kits.</text>
 
-      <g transform="translate(90 420)">
-        <rect width="640" height="320" rx="36" fill="url(#cardGradient)" stroke="${theme.border}"/>
+      <g transform="translate(88 410)">
+        <rect width="700" height="338" rx="36" fill="url(#cardGradient)" stroke="${theme.border}"/>
         <text x="38" y="54" fill="${theme.text}" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Museum Hall</text>
-        <rect x="38" y="90" width="170" height="190" rx="24" fill="#111827" stroke="${theme.crimson}" stroke-opacity="0.32"/>
-        <rect x="232" y="90" width="170" height="190" rx="24" fill="#111827" stroke="${theme.purple}" stroke-opacity="0.32"/>
-        <rect x="426" y="90" width="170" height="190" rx="24" fill="#111827" stroke="${theme.gold}" stroke-opacity="0.32"/>
-        <text x="58" y="128" fill="${theme.crimson}" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">DECEASED</text>
-        <text x="252" y="128" fill="${theme.purple}" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">UNDEAD</text>
-        <text x="446" y="128" fill="${theme.gold}" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">MUMMIFIED</text>
-        <text x="58" y="170" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="24">CORTEX</text>
-        <text x="252" y="170" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="24">Conforma</text>
-        <text x="446" y="170" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="24">CodeSonify</text>
-        <text x="58" y="210" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="15">Trading system with no second life.</text>
-        <text x="252" y="210" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="15">6-agent compliance machine.</text>
-        <text x="446" y="210" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="15">Prototype that learned to sing.</text>
+        <rect x="32" y="90" width="192" height="208" rx="24" fill="#111827" stroke="${theme.crimson}" stroke-opacity="0.32"/>
+        <rect x="254" y="90" width="192" height="208" rx="24" fill="#111827" stroke="${theme.purple}" stroke-opacity="0.32"/>
+        <rect x="476" y="90" width="192" height="208" rx="24" fill="#111827" stroke="${theme.gold}" stroke-opacity="0.32"/>
+        <text x="52" y="128" fill="${theme.crimson}" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">DECEASED</text>
+        <text x="274" y="128" fill="${theme.purple}" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">UNDEAD</text>
+        <text x="496" y="128" fill="${theme.gold}" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2">MUMMIFIED</text>
+        <text x="52" y="170" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="24">CORTEX</text>
+        <text x="274" y="170" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="24">Conforma</text>
+        <text x="496" y="170" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="24">CodeSonify</text>
+        <text x="52" y="206" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="13">Trading system with</text>
+        <text x="52" y="224" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="13">no second life.</text>
+        <text x="274" y="206" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="13">6-agent compliance</text>
+        <text x="274" y="224" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="13">machine.</text>
+        <text x="496" y="206" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="13">Prototype that</text>
+        <text x="496" y="224" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="13">learned to sing.</text>
       </g>
 
       <g transform="translate(850 160)">
@@ -226,28 +229,28 @@ function architectureSvg() {
 
 function productFlowSvg() {
   const steps = [
-    ["1", "Enter username", "GitHub profile input"],
-    ["2", "Scan repos", "Find public abandoned work"],
-    ["3", "Visit exhibit", "Explore AI museum room"],
-    ["4", "Ask curator", "Grounded Q&amp;A per project"],
-    ["5", "Generate plan", "Diagnosis + stack + GTM"],
-    ["6", "Export PDF", "Shareable executive brief"],
-    ["7", "Commit to Bay", "Persistent archive entry"],
-    ["8", "Download kit", "Copilot-ready repo files"],
+    ["1", "Enter user", "GitHub handle"],
+    ["2", "Scan repos", "Find stale repos"],
+    ["3", "Visit exhibit", "Enter museum room"],
+    ["4", "Ask curator", "Grounded Q&amp;A"],
+    ["5", "Generate plan", "Strategy report"],
+    ["6", "Export PDF", "Branded brief"],
+    ["7", "Commit to Bay", "Archive revival"],
+    ["8", "Download kit", "Copilot files"],
   ];
   const cards = steps
     .map(([n, title, sub], index) => {
-      const x = 70 + index * 185;
+      const x = 68 + index * 182;
       const tone = [theme.cyan, theme.gold, theme.crimson, theme.blue, theme.purple, theme.green, theme.gold, theme.cyan][index];
       return `
         <g transform="translate(${x} 310)">
-          <rect width="160" height="220" rx="26" fill="#0f1524" stroke="${tone}" stroke-opacity="0.28"/>
+          <rect width="166" height="220" rx="26" fill="#0f1524" stroke="${tone}" stroke-opacity="0.28"/>
           <circle cx="38" cy="42" r="18" fill="${tone}" opacity="0.18"/>
           <text x="38" y="48" text-anchor="middle" fill="${tone}" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">${n}</text>
-          <text x="22" y="96" fill="${theme.text}" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">${title}</text>
-          <text x="22" y="134" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="15">${sub}</text>
+          <text x="18" y="96" fill="${theme.text}" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">${title}</text>
+          <text x="18" y="132" fill="${theme.muted}" font-family="Inter, Arial, sans-serif" font-size="12.5">${sub}</text>
         </g>
-        ${index < steps.length - 1 ? arrowLine(x + 160, 420, x + 184, 420, tone) : ""}
+        ${index < steps.length - 1 ? arrowLine(x + 166, 420, x + 180, 420, tone) : ""}
       `;
     })
     .join("");
@@ -335,7 +338,12 @@ function copilotKitSvg() {
     </g>
 
     <g transform="translate(760 218)">
-      ${metricCard(0, 0, 680, 144, "WHY IT MATTERS", "Copilot gets a product memory, delivery plan, and execution lane.", theme.cyan)}
+      <g transform="translate(0 0)">
+        <rect width="680" height="144" rx="24" fill="#0b1020" stroke="${theme.cyan}" stroke-opacity="0.24"/>
+        <text x="26" y="34" fill="${theme.muted}" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2">WHY IT MATTERS</text>
+        <text x="26" y="76" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="24" font-weight="700">Copilot gets product memory,</text>
+        <text x="26" y="106" fill="${theme.text}" font-family="Cinzel, Georgia, serif" font-size="24" font-weight="700">a delivery plan, and a clear execution lane.</text>
+      </g>
       ${box(0, 184, 680, 166, "Repository instructions", ["Guide Copilot toward the new architecture", "Preserve fallbacks, PDF export, and Resurrection Bay"], theme.blue)}
       ${box(0, 382, 680, 166, "Project-specific skill", ["Teach Copilot how to revive this exact product", "Bind implementation to docs/revival-plan.md"], theme.purple)}
       ${box(0, 580, 680, 166, "Execution docs", ["Backlog, commercial framing, and priorities live inside the repo", "Developers can move from museum insight to code"], theme.gold)}
@@ -352,7 +360,7 @@ function roiDashboardSvg() {
     ${metricCard(82, 220, 290, 150, "10 REPOS", "5-10 hrs saved", theme.cyan)}
     ${metricCard(402, 220, 290, 150, "50 REPOS", "25-50 hrs saved", theme.purple)}
     ${metricCard(722, 220, 290, 150, "FIRST PASS", "Minutes, not days", theme.gold)}
-    ${metricCard(1042, 220, 390, 150, "STRATEGIC VALUE", "Discovery + prioritization compressed", theme.green)}
+    ${metricCard(1042, 220, 390, 150, "STRATEGIC VALUE", "Faster prioritization", theme.green)}
 
     <g transform="translate(82 430)">
       <rect width="1350" height="360" rx="34" fill="url(#cardGradient)" stroke="${theme.border}"/>
